@@ -49,8 +49,8 @@ WiFiClient espClient;
 constexpr uint16_t THINGSBOARD_PORT = 1883U;
 constexpr uint32_t MAX_MESSAGE_SIZE = 128U;
 ThingsBoardSized<MAX_MESSAGE_SIZE> tb(espClient, MAX_MESSAGE_SIZE);
-#define THINGSBOARD_SERVER  "thi.aii.pub.ro"
-#define TOKEN              "sv5srct5kf4i0oaztj72" 
+#define THINGSBOARD_SERVER  " "
+#define TOKEN              " " 
 
 
 // -------------- NTP -------------------------
